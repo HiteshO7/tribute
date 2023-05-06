@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background:rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+img.as{
+    height:10%;
+    width: 20%;
+    border:5px solid #000;
+    border-radius: 20% 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+    transition: all 0.3s ease;
+}
+p.de{
+    font-size: 4rem;
+    color: #000000;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px #bdb5af;
+    margin-left:70vh;
+   
+    margin-top: -40vh;
+}
+p.ed{
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px #bdb5af;
+    margin-left:140vh;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    
+  }
+  section.as{
+    position: relative;
+    
+  }
+  p.qw{
+    font-size: 5rem;
+    color: #000000;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px #bdb5af;
+    margin-left: 10px;
+    
+}
+p.sd{
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img.as:hover{
+    
+    transform: scale(1.1);
+    box-shadow: 0 25px 50px #000;
+    z-index: 8888;
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-wrapper{
+    border-radius: 10%;
+  }
